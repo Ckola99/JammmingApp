@@ -21,8 +21,8 @@ function App() {
 	};
 
 	const clearSearch = () => {
-		setResults([])
-	}
+		setResults([]);
+	};
 
 	const addToPlaylist = (song) => {
 		setPlaylistTracks((prevPlaylistTracks) => [
@@ -37,13 +37,13 @@ function App() {
 
 	const savePlaylist = async () => {
 		const trackURIs = playlistTracks.map((track) => track.uri);
-		if(playlistTitle){
+		if (playlistTitle) {
 			await Spotify.savePlaylist(playlistTitle, trackURIs);
 			setPlaylistTracks([]);
 			setPlaylistTitle("");
+		} else {
+			alert("Please Name Playlist");
 		}
-		alert('please name playlist')
-
 	};
 
 	const onSearch = async (term) => {
