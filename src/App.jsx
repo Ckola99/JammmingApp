@@ -37,17 +37,15 @@ function App() {
 
 	const savePlaylist = async () => {
 		const trackURIs = playlistTracks.map((track) => track.uri);
-		
+
 		if (playlistTitle) {
 			await Spotify.savePlaylist(playlistTitle, trackURIs);
 			setPlaylistTracks([]);
 			setPlaylistTitle("");
+			alert("Playlist Added! Please wait a few minutes.");
 		} else {
 			alert("Please Name Playlist!");
 		}
-
-		alert("Playlist Added! Please wait a few minutes.");
-
 	};
 
 	const onSearch = async (term) => {
