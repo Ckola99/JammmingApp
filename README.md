@@ -49,36 +49,37 @@ To work on this project, you should have a basic understanding of the following:
 ## Getting Started
 
 1. **Clone the Repository**: Clone this repository to your local machine.
-   \`\`\`sh
+   ```sh
    git clone https://github.com/your-username/jammming-app.git
-   \`\`\`
+   ```
 2. **Install Dependencies**: Navigate to the project directory and install the necessary dependencies.
-   \`\`\`sh
+   ```sh
    cd jammming-app
    npm install
-   \`\`\`
+   ```
 3. **Run the Application**: Start the development server.
-   \`\`\`sh
+   ```sh
    npm start
-   \`\`\`
+   ```
 4. **Run Tests**: Run the test suite to ensure everything is working correctly.
-   \`\`\`sh
+   ```sh
    npm test
-   \`\`\`
+   ```
 
 ## Project Structure
 
-\`\`\`
+```
 jammming-app/
 ├── public/
 │   ├── index.html
 │   └── ...
 ├── src/
-│   │── App.js
-│   │── SearchBar.js
-│   │── Playlist.js
-│   │── Track.js
-│   │── ...
+│   ├
+│   ├── App.js
+│   ├── SearchBar.js
+│   ├── Playlist.js
+│   ├── Track.js
+│   |── ...
 │   ├── util/
 │   │   └── spotify.js
 │   ├── App.css
@@ -93,7 +94,8 @@ jammming-app/
 ├── package.json
 ├── README.md
 └── ...
-\`\`\`
+```
+
 
 ## Contributing
 
