@@ -1,5 +1,5 @@
 const clientId = import.meta.env.VITE_SPOTIFY_CLIENT_ID;
-const redirectUri = 'https://CKola99.github.io/JammmingApp/';
+const redirectUri = 'https://Ckola99.github.io/JammmingApp/';
 let accessToken;
 
 const Spotify = {
