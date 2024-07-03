@@ -4,6 +4,10 @@
 
 ![](src\assets\screencapture-ckola99-github-io-2024-07-03-19_17_51.png)
 
+## Live Site
+
+- **Live Site** - [Live Site]( https://ckola99.github.io/JammmingApp/)
+
 ## Purpose of This Project
 
 The Jammming App is a React-based web application that allows users to search for songs, view detailed information about each song, and create custom playlists that can be exported to their personal Spotify account. This project leverages the Spotify API to provide a rich music search and playlist creation experience.
