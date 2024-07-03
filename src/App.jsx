@@ -41,8 +41,9 @@ function App() {
 			await Spotify.savePlaylist(playlistTitle, trackURIs);
 			setPlaylistTracks([]);
 			setPlaylistTitle("");
+			alert("Playlist Added! Please wait a few minutes.")
 		} else {
-			alert("Please Name Playlist");
+			alert("Please Name Playlist!");
 		}
 	};
 
