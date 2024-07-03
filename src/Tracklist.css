@@ -1,0 +1,13 @@
+/* Tracklist.css */
+
+.tracklist-container {
+  margin: 20px;
+}
+
+.tracklist-item {
+  margin-bottom: 10px;
+}
+
+.tracklist-item:last-child {
+  margin-bottom: 0;
+}
