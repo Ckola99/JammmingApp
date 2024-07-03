@@ -112,3 +112,9 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 ---
 
 Happy coding! If you have any questions or need further assistance, feel free to open an issue on the repository.
+
+
+## Author
+
+- Frontend Mentor - [@Ckola99](https://www.frontendmentor.io/profile/Ckola99)
+- Twitter - [@Kola.Dev](https://www.twitter.com/kolaDev01)
