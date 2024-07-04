@@ -22,6 +22,9 @@ function Track({ track, addToPlaylist }) {
 			>
 				Add
 			</button>
+       <button className="previewButton" onClick={() => playPreview(track.previewUrl)}>
+        Preview
+      </button>
 		</div>
   );
 }

@@ -35,6 +35,11 @@ function App() {
 		setPlaylistTitle(event.target.value);
 	};
 
+	const playPreview = (url) => {
+		const audio = new Audio(url);
+		audio.play();
+	};
+
 	const savePlaylist = async () => {
 		const trackURIs = playlistTracks.map((track) => track.uri);
 
@@ -70,6 +75,7 @@ function App() {
 					<SearchResults
 						tracks={results}
 						addToPlaylist={addToPlaylist}
+						play={playPreview}
 					/>
 					<Playlist
 						title={playlistTitle}
