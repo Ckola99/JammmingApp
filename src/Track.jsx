@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Track.css"
 
-function Track({ track, addToPlaylist, playPreview }) {
+function Track({ track, addToPlaylist, play }) {
   return (
 		<div className="track">
 			<div className="track-details">
@@ -22,7 +22,7 @@ function Track({ track, addToPlaylist, playPreview }) {
 			>
 				Add
 			</button>
-       <button className="previewButton" onClick={() => playPreview(track.previewUrl)}>
+       <button className="previewButton" onClick={() => play(track.previewUrl)}>
         Preview
       </button>
 		</div>
