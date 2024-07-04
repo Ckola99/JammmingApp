@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Track.css"
 
-function Track({ track, addToPlaylist }) {
+function Track({ track, addToPlaylist, playPreview }) {
   return (
 		<div className="track">
 			<div className="track-details">

@@ -1,10 +1,10 @@
 import React from 'react'
 import Tracklist from './Tracklist'
 
-function SearchResults({ tracks, addToPlaylist, clear }) {
+function SearchResults({ tracks, addToPlaylist, clear, playPreview }) {
   return (
     <div>
-	<Tracklist tracks={tracks} addToPlaylist={addToPlaylist} clear={clear}/>
+	<Tracklist tracks={tracks} addToPlaylist={addToPlaylist} clear={clear} playPreview={playPreview}/>
     </div>
   )
 }
